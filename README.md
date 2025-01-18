@@ -3,12 +3,12 @@ Go Captcha presets some default embedded resources and stores them in the Go fil
 
 ## Install
 ```shell
-$ go get -u github.com/wenlng/go-captcha-assets@latest
+$ go get -u github.com/admpub/go-captcha-assets@latest
 ```
 
 ### Chinese Text Assets
 ```go
-import "github.com/wenlng/go-captcha-assets/bindata/chars"
+import "github.com/admpub/go-captcha-assets/bindata/chars"
 
 func Demo() {
     chars := chars.GetChineseChars()
@@ -17,7 +17,7 @@ func Demo() {
 
 ### Alpha Text Assets
 ```go
-import "github.com/wenlng/go-captcha-assets/bindata/chars"
+import "github.com/admpub/go-captcha-assets/bindata/chars"
 
 func Demo() {
     chars := chars.GetAlphaChars()
@@ -26,8 +26,8 @@ func Demo() {
 
 ### Font Assets
 ```go
-import "github.com/wenlng/go-captcha-assets/resources/fonts/fzshengsksjw"
-import "github.com/wenlng/go-captcha-assets/resources/fonts/yrdzst"
+import "github.com/admpub/go-captcha-assets/resources/fonts/fzshengsksjw"
+import "github.com/admpub/go-captcha-assets/resources/fonts/yrdzst"
 
 func Demo() {
     fonts, err := fzshengsksjw.GetFont()
@@ -46,7 +46,7 @@ func Demo() {
 
 ### Image Assets
 ```go
-import "github.com/wenlng/go-captcha-assets/resources/images"
+import "github.com/admpub/go-captcha-assets/resources/images"
 
 func Demo() {
     imgs, err := images.GetImages()
@@ -58,7 +58,7 @@ func Demo() {
 
 ### Shape Assets
 ```go
-import "github.com/wenlng/go-captcha-assets/resources/shapes"
+import "github.com/admpub/go-captcha-assets/resources/shapes"
 
 func Demo() {
     shapeMaps, err := shapes.GetShapes()
@@ -70,7 +70,7 @@ func Demo() {
 
 ### Thumbnail Assets
 ```go
-import "github.com/wenlng/go-captcha-assets/resources/thumb"
+import "github.com/admpub/go-captcha-assets/resources/thumb"
 
 func Demo() {
     imgs, err := thumb.GetImages()
@@ -82,7 +82,7 @@ func Demo() {
 
 ### Tile Assets
 ```go
-import "github.com/wenlng/go-captcha-assets/resources/tiles"
+import "github.com/admpub/go-captcha-assets/resources/tiles"
 
 func Demo() {
     graphs, err := tiles.GetTiles()

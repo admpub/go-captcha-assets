@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/admpub/go-captcha-assets/helper"
 	"github.com/go-bindata/go-bindata"
-	"github.com/wenlng/go-captcha-assets/helper"
 )
 
 func configs() []*bindata.Config {

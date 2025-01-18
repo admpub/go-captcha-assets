@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"image"
 
+	"github.com/admpub/go-captcha-assets/helper"
+	"github.com/admpub/go-captcha-assets/sourcedata/chars"
 	"github.com/golang/freetype/truetype"
-	"github.com/wenlng/go-captcha-assets/helper"
-	"github.com/wenlng/go-captcha-assets/sourcedata/chars"
 )
 
 type GraphImage struct {

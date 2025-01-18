@@ -1,4 +1,4 @@
-module github.com/wenlng/go-captcha-assets
+module github.com/admpub/go-captcha-assets
 
 go 1.16
 

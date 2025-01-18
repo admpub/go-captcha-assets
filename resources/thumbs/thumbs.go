@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"image"
 
-	assets "github.com/wenlng/go-captcha-assets/bindata/thumbs"
-	"github.com/wenlng/go-captcha-assets/helper"
+	assets "github.com/admpub/go-captcha-assets/bindata/thumbs"
+	"github.com/admpub/go-captcha-assets/helper"
 )
 
 func GetThumbs() ([]image.Image, error) {
@@ -14,7 +14,7 @@ func GetThumbs() ([]image.Image, error) {
 	for i := 1; i <= 5; i++ {
 		var img image.Image
 		var asset []byte
-		asset, err = assets.Asset(fmt.Sprintf("sourcedata/thumbs/thumb-%d.png", i))
+		asset, err = assets.Asset(fmt.Sprintf("sourcedata/thumbs/thumb-%d.jpg", i))
 		if err != nil {
 			return images, err
 		}

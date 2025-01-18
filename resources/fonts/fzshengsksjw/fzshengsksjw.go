@@ -1,9 +1,9 @@
 package fzshengsksjw
 
 import (
+	assets "github.com/admpub/go-captcha-assets/bindata/fonts/fzshengsksjw"
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
-	assets "github.com/wenlng/go-captcha-assets/bindata/fonts/fzshengsksjw"
 )
 
 func GetFont() (font *truetype.Font, err error) {
