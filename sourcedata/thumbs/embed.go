@@ -11,8 +11,6 @@ import (
 //go:embed *.jpg
 var FS embed.FS
 
-var Thumbs []image.Image
-
 func GetThumbs() ([]image.Image, error) {
 	var images []image.Image
 	dirs, err := FS.ReadDir(".")
@@ -36,8 +34,4 @@ func GetThumbs() ([]image.Image, error) {
 		images = append(images, img)
 	}
 	return images, nil
-}
-
-func init() {
-	Thumbs, _ = GetThumbs()
 }

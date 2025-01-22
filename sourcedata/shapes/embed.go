@@ -12,8 +12,6 @@ import (
 //go:embed *.png
 var FS embed.FS
 
-var Shapes map[string]image.Image
-
 func GetShapes() (map[string]image.Image, error) {
 	images := map[string]image.Image{}
 	dirs, err := FS.ReadDir(".")
@@ -38,8 +36,4 @@ func GetShapes() (map[string]image.Image, error) {
 		images[key] = img
 	}
 	return images, err
-}
-
-func init() {
-	Shapes, _ = GetShapes()
 }

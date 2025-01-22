@@ -7,6 +7,5 @@ import (
 )
 
 func GetImages() ([]image.Image, error) {
-	images := images.Images
-	return images, nil
+	return images.GetImages()
 }

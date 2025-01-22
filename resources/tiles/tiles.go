@@ -5,5 +5,5 @@ import (
 )
 
 func GetTiles() ([]*tiles.GraphImage, error) {
-	return tiles.Tiles, nil
+	return tiles.GetTiles()
 }

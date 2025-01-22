@@ -7,5 +7,5 @@ import (
 )
 
 func GetShapes() (map[string]image.Image, error) {
-	return shapes.Shapes, nil
+	return shapes.GetShapes()
 }

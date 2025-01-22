@@ -7,5 +7,5 @@ import (
 )
 
 func GetThumbs() ([]image.Image, error) {
-	return thumbs.Thumbs, nil
+	return thumbs.GetThumbs()
 }

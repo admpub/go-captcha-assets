@@ -23,8 +23,6 @@ type GraphImage struct {
 	MaskImage    image.Image
 }
 
-var Tiles []*GraphImage
-
 func GetTiles() ([]*GraphImage, error) {
 	var graphs []*GraphImage
 	dirs, err := FSTile.ReadDir(".")
@@ -81,8 +79,4 @@ func GetTiles() ([]*GraphImage, error) {
 		})
 	}
 	return graphs, nil
-}
-
-func init() {
-	Tiles, _ = GetTiles()
 }
