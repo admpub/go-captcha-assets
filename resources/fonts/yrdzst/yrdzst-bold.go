@@ -1,21 +1,10 @@
 package yrdzst
 
 import (
-	assets "github.com/admpub/go-captcha-assets/bindata/fonts/yrdzst"
-	"github.com/golang/freetype"
+	"github.com/admpub/go-captcha-assets/sourcedata/fonts/yrdzst"
 	"github.com/golang/freetype/truetype"
 )
 
 func GetFont() (font *truetype.Font, err error) {
-	asset, err := assets.Asset("sourcedata/fonts/yrdzst-bold.ttf")
-	if err != nil {
-		return font, err
-	}
-
-	font, err = freetype.ParseFont(asset)
-	if err != nil {
-		return nil, err
-	}
-
-	return font, nil
+	return yrdzst.GetFont()
 }
