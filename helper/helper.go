@@ -42,6 +42,14 @@ func CopyFileTo(srcPath, destPath string) error {
 	} else {
 		file, err = os.OpenFile(destPath, os.O_RDWR, 0666)
 	}
+	if err != nil {
+		return err
+	}
+	defer file.Close()
 	_, err = file.Write(b)
+	if err != nil {
+		return err
+	}
+	err = file.Sync()
 	return err
 }

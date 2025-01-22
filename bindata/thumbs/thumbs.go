@@ -96,7 +96,7 @@ func sourcedataThumbsThumb1Jpg() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-1.jpg", size: 2621, mode: os.FileMode(420), modTime: time.Unix(1714893639, 0)}
+	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-1.jpg", size: 2621, mode: os.FileMode(420), modTime: time.Unix(1737215004, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -116,7 +116,7 @@ func sourcedataThumbsThumb2Jpg() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-2.jpg", size: 3162, mode: os.FileMode(420), modTime: time.Unix(1714893639, 0)}
+	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-2.jpg", size: 3162, mode: os.FileMode(420), modTime: time.Unix(1737215004, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -136,7 +136,7 @@ func sourcedataThumbsThumb3Jpg() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-3.jpg", size: 3678, mode: os.FileMode(420), modTime: time.Unix(1714893639, 0)}
+	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-3.jpg", size: 3678, mode: os.FileMode(420), modTime: time.Unix(1737215004, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -156,7 +156,7 @@ func sourcedataThumbsThumb4Jpg() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-4.jpg", size: 3190, mode: os.FileMode(420), modTime: time.Unix(1714893639, 0)}
+	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-4.jpg", size: 3190, mode: os.FileMode(420), modTime: time.Unix(1737215004, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -176,7 +176,7 @@ func sourcedataThumbsThumb5Jpg() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-5.jpg", size: 4040, mode: os.FileMode(420), modTime: time.Unix(1714893639, 0)}
+	info := bindataFileInfo{name: "sourcedata/thumbs/thumb-5.jpg", size: 4040, mode: os.FileMode(420), modTime: time.Unix(1737215004, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
